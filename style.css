@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: white;
   background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
   overflow: hidden;
@@ -51,8 +52,13 @@ canvas {
 }
 
 @keyframes float {
-  0%, 100% { transform: translate(-50%, -50%) translateY(0) translateZ(20px); }
-  50% { transform: translate(-50%, -50%) translateY(-15px) translateZ(20px); }
+  0%,
+  100% {
+    transform: translate(-50%, -50%) translateY(0) translateZ(20px);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-15px) translateZ(20px);
+  }
 }
 
 h1 {
@@ -68,8 +74,14 @@ h1 {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 form {
@@ -127,6 +139,14 @@ button:active {
   transform: translateY(0) scale(0.98);
 }
 
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 2.5rem;
@@ -167,7 +187,16 @@ button:active {
 }
 
 @keyframes shake {
-  0%, 100% { transform: translateX(0); }
-  20%, 60% { transform: translateX(-5px); }
-  40%, 80% { transform: translateX(5px); }
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20%,
+  60% {
+    transform: translateX(-5px);
+  }
+  40%,
+  80% {
+    transform: translateX(5px);
+  }
 }
