@@ -11,7 +11,7 @@ searchForm.addEventListener('submit', (e) => {
   const query = searchInput.value.trim();
 
   if (query) {
-    window.open(`https://chatgpt.com/?q=${encodeURIComponent(query)}`, '_blank');
+    window.location.href = "https://chatgpt.com/?q=${encodeURIComponent(query)}";
   } else {
     searchInput.style.animation = 'shake 0.5s';
     setTimeout(() => {
