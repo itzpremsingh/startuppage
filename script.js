@@ -11,7 +11,6 @@ searchForm.addEventListener('submit', (e) => {
     window.location.href = `https://chatgpt.com/?q=${encodeURIComponent(query)}`;
   } else {
     searchInput.style.animation = 'shake 0.5s';
-    alert("Please type something to search!");
     setTimeout(() => {
       searchInput.style.animation = '';
     }, 500);
