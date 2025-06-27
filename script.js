@@ -8,7 +8,7 @@ searchForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const query = searchInput.value.trim();
   if (query) {
-    window.location.href = `https://chatgpt.com/?q=${encodeURIComponent(query)}`;
+    window.location.href = `https://chatgpt.com/?model=gpt-4&q=${encodeURIComponent(query)}&hints=search`;
   } else {
     searchInput.style.animation = 'shake 0.5s';
     setTimeout(() => {
