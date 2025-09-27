@@ -4,14 +4,14 @@ A beautiful and interactive custom homepage that lets you search ChatGPT directl
 
 ## ✨ Features
 
-* 🔍 ChatGPT search bar
-* 🌌 Animated particle background (Canvas)
-* 🌟 Centered responsive layout
-* 🧲 Frosted glass effect with glowing hover
-* 👇 Mouse-based 3D tilt effect
-* 📱 Fully responsive (Mobile friendly)
-* 🧠 Smart input validation with shake animation
-* 💎 Stylish `favicon.ico` support
+- 🔍 ChatGPT search bar
+- 🌌 Animated particle background (Canvas)
+- 🌟 Centered responsive layout
+- 🧲 Frosted glass effect with glowing hover
+- 👇 Mouse-based 3D tilt effect
+- 📱 Fully responsive (Mobile friendly)
+- 🧠 Smart input validation with shake animation
+- 💎 Stylish `favicon.ico` support
 
 ## 🚀 How to Use
 
