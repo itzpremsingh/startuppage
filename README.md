@@ -28,23 +28,6 @@ git clone https://github.com/itzpremsingh/startuppage.git
 > It will open ChatGPT search in a new tab:
 > `https://chatgpt.com/?q=your-query`
 
-## 💂 File Structure
-
-```
-/startuppage
-│
-├── index.html       # Main page
-├── style.css        # Styling and animation
-├── script.js        # Particle animation + interactivity
-└── favicon.ico      # Browser tab icon
-```
-
-## 🧚 Tested On
-
-* Chrome ✅
-* Firefox ✅
-* Android browsers ✅
-
 ## 📄 License
 
 MIT License – Free to use and modify.
